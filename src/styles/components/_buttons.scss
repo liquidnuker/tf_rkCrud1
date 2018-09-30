@@ -1,0 +1,18 @@
+// base button styles
+// ==================================================/
+button,
+input [type="button"],
+[type="reset"],
+[type="submit"],
+.btn {
+  // see vendor/normalize.scss for other properties
+  @extend %mp--0;
+}
+
+// themes
+// ==================================================/
+.btn1-01 {
+  @extend %display--inline-block;
+  @extend %padd--4;
+  border: 1px solid #000;
+}
